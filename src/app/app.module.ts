@@ -9,6 +9,9 @@ import { CollapseModule } from 'ngx-bootstrap';
 import { SiteService } from './services/site.service';
 import { PostsComponent } from './posts/posts.component';
 import { PostComponent } from './post/post.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { PostComponent } from './post/post.component';
     NavbarComponent,
     FooterComponent,
     PostsComponent,
-    PostComponent
+    PostComponent,
+    JumbotronComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
