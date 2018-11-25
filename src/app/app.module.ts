@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './_partial/menu/menu.component';
 import { SocialComponent } from './_partial/social/social.component';
+import { DetailComponent } from './detail/detail.component';
 
 
 @NgModule({
@@ -27,12 +29,14 @@ import { SocialComponent } from './_partial/social/social.component';
     AboutComponent,
     ContactComponent,
     MenuComponent,
-    SocialComponent
+    SocialComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CollapseModule
+    CollapseModule,
+    HttpClientModule
   ],
   providers: [SiteService],
   bootstrap: [AppComponent]
