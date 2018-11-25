@@ -8,10 +8,12 @@ import { FooterComponent } from './footer/footer.component';
 import { CollapseModule } from 'ngx-bootstrap';
 import { SiteService } from './services/site.service';
 import { PostsComponent } from './posts/posts.component';
-import { PostComponent } from './post/post.component';
-import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { PostComponent } from './_partial/post/post.component';
+import { JumbotronComponent } from './_partial/jumbotron/jumbotron.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { MenuComponent } from './_partial/menu/menu.component';
+import { SocialComponent } from './_partial/social/social.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { ContactComponent } from './contact/contact.component';
     PostComponent,
     JumbotronComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

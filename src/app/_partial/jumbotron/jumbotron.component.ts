@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SiteService } from '../services/site.service';
+import { SiteService } from '../../services/site.service';
 
 @Component({
   selector: 'app-jumbotron',

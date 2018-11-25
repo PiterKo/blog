@@ -1,3 +1,9 @@
 .bg-light {
   background-color: #fafafa!important;
 }
+
+@media (max-width: 992px) {
+  .social {
+    display: none;
+  }
+}
